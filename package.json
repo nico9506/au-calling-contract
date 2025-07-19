@@ -1,0 +1,29 @@
+{
+  "name": "au-calling-contract",
+  "version": "1.0.0",
+  "description": "Hardhat practice: calling contract via interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico9506/au-calling-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nico9506/au-calling-contract/issues"
+  },
+  "homepage": "https://github.com/nico9506/au-calling-contract#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.26.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "ethers": "^6.15.0"
+  }
+}
