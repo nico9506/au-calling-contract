@@ -10,6 +10,8 @@ async function main() {
     CONTRACT_ADDR
   );
 
+  // It should trigger an error as the contract is being
+  // called from the same EOA that deployed it.
   const tx = await contractInstance.attempt();
   await tx.wait();
 }

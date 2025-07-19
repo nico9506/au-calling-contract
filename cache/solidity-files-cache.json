@@ -72,6 +72,43 @@
       "artifacts": [
         "WinnerContract"
       ]
+    },
+    "/home/nlopez/GitHub/au-calling-contract/contracts/ExternalCaller.sol": {
+      "lastModificationDate": 1752935190792,
+      "contentHash": "14618c9538b97c335a1ca2e226d75afa",
+      "sourceName": "contracts/ExternalCaller.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "ExternalCaller",
+        "Winner"
+      ]
     }
   }
 }
