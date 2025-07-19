@@ -36,6 +36,42 @@
       "artifacts": [
         "Contract"
       ]
+    },
+    "/home/nlopez/GitHub/au-calling-contract/contracts/Winner.sol": {
+      "lastModificationDate": 1752934172937,
+      "contentHash": "53434ebccf9cce21ed524e2bd6d562ea",
+      "sourceName": "contracts/Winner.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "WinnerContract"
+      ]
     }
   }
 }
