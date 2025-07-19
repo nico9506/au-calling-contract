@@ -9,7 +9,10 @@ async function main() {
     CONTRACT_ADDR
   );
 
-  await contractInstance.changeX(1995);
+  const tx = await contractInstance.changeX(123);
+
+  // wait until the transaction 'tx' is minted in the blockchain
+  await tx.wait();
 }
 
 main().catch((err) => {
